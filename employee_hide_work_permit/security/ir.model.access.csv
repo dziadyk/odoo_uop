@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access__employee_hide_work_permit_employee__group_user,access__employee_hide_work_permit_employee__group_user,model_employee_hide_work_permit_employee,base.group_user,1,1,1,1
