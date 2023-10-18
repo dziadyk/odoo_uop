@@ -4,26 +4,28 @@
     'summary': 'Employee hide work permit',
     'description': 'Employee hide work permit',
 
-    'author': 'Dziadyk V',
+    'author': 'Volodymyr Dziadyk',
     'website': 'https://www.oneservice-consulting.com/',
+    'support': 'dvol@oneservice.in.ua',
 
     'category': 'Human Resources/Employees',
-    'license': 'OPL-1',
+    'license': 'LGPL-3',
     'version': '16.0.1.0.0',
 
     'depends': [
         'base',
-        'Employees',
+        'hr',
     ],
 
     'data': [
+        'security/ir.model.access.csv'
         'views/views.xml',
-        'views/templates.xml',
-    ],
+     ],
     'demo': [
     ],
 
-    'price': 0,
-    'currency': 'EUR',
+    'application': False,
+    'installable': True,
+    'auto_install': False,
 
 }

@@ -1,6 +1,5 @@
-from odoo import models, fields, api, exceptions
+from odoo import _, api, exceptions, fields, models
+
 
 class Employee(models.Model):
-    _name = 'employee.hide.permit'
-    _description = 'Employee hide permit'
-
+    _inherit = 'hr.employee'
