@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'employee_hide_work_permit',
-    'summary': 'Employee hide work permit',
-    'description': 'Employee hide work permit',
+    'name': 'Employees (Hide Work Permit)',
+    'summary': 'Employees Hide Work Permit',
+    'description': 'Employees Hide Work Permit',
 
     'author': 'Volodymyr Dziadyk',
     'website': 'https://www.oneservice-consulting.com/',
@@ -13,7 +13,6 @@
     'version': '16.0.1.0.1',
 
     'depends': [
-        'base',
         'hr',
     ],
 
