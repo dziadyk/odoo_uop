@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="os_project_view_kanban_inherit_project" model="ir.ui.view">
+            <field name="name">os.project.kanban.inherit.project</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.view_project_kanban"/>
+            <field name="arch" type="xml">
+                <xpath expr="/kanban" position="inside">
+                    <field name="os_department_id" string="Department"/>
+                </xpath>
+                <xpath expr="//div[hasclass('oe_kanban_bottom_right')]" position="inside">
+                    <field name="os_department_id" string="Department"/>
+                </xpath>
+            </field>
+        </record>
+</odoo>
