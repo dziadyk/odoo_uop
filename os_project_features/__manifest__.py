@@ -18,8 +18,7 @@
     ],
 
     'data': [
-        #'views/fields_views.xml',
-        'views/filter_views.xml',
+        'views/project_filter_views.xml',
      ],
 
     'demo': [

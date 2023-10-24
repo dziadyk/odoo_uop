@@ -5,9 +5,9 @@
         <field name="model">project.project</field>
         <field name="inherit_id" ref="project.view_project_project_filter"/>
         <field name="arch" type="xml">
-            <group expand="0" string="Group By">
+            <xpath expr="//filter[@name='Manager']" position="before">
                 <filter string="Department" name="Department" context="{'group_by': 'os_department_id'}"/>
-            </group>
+            </xpath>
         </field>
     </record>
 </odoo>
