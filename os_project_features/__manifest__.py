@@ -18,7 +18,7 @@
     ],
 
     'data': [
-        'views/filter_views.xml',
+        'views/project_filter_views.xml',
      ],
 
     'demo': [
