@@ -10,7 +10,7 @@
             <xpath expr="//field[@name='permit_no']" position="replace"/>
             <xpath expr="//field[@name='visa_expire']" position="replace"/>
             <xpath expr="//field[@name='work_permit_expiration_date']" position="replace"/>
-            <xpath expr="//field[@name='work_permit_name']" position="replace"/>
+            <!--<xpath expr="//field[@name='work_permit_name']" position="replace"/>-->
             <xpath expr="//field[@name='has_work_permit']" position="replace"/>
         </field>
     </record>
