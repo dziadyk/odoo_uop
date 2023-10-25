@@ -18,7 +18,6 @@
     ],
 
     'data': [
-        #'views/fields_views.xml',
         'views/filter_views.xml',
      ],
 
