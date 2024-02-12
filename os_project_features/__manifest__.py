@@ -10,7 +10,7 @@
 
     'category': 'Services/Project',
     'license': 'LGPL-3',
-    'version': '16.0.1.0.0',
+    'version': '16.0.1.0.2',
 
     'depends': [
         'hr',
@@ -19,6 +19,7 @@
 
     'data': [
         'views/project_filter_views.xml',
+        'views/project_form_views.xml',
      ],
 
     'demo': [
