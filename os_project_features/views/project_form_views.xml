@@ -35,7 +35,7 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='user_ids']" position="replace">
                 <field name="user_ids" options="{'no_open': True, 'no_quick_create': True}" domain="[('active', '=', True)]"
-                            widget="many2many_tags"/>
+                            widget="many2many_tags" readonly="0"/>
             </xpath>
             <xpath expr="//field[@name='portal_user_names']" position="replace">
             </xpath>
