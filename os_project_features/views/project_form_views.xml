@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
     <record id="os_view_task_form2" model="ir.ui.view">
         <field name="name">os.project.task.form</field>
         <field name="model">project.task</field>
